@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a[3]={10,45,23};
+	int*ptr;
+	ptr=&a[3];
+	cout<<"value of a "<<a[0]<<endl<<a[1]<<endl<<a[2]<<endl;
+	cout<<"value of *ptr"<<*ptr;
+	cout<<"value of ptr "<<ptr;
+	return 0;
+}
