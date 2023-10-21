@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int A=50032;
+	int B=44321;
+	int sum=A+B;
+	cout<<sum;
+	return 0;
+}
