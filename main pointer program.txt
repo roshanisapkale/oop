@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+main()
+{#include<iostream>
+using namespace std;
+class Encap
+{
+	private:
+		int no;
+		public:
+			int setvalue(int a)
+			{
+				no=a;
+				cout<<"no is:"<<no<<endl;
+			}
+};
